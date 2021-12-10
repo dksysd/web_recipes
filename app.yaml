@@ -1,0 +1,8 @@
+runtime:nodejs16
+env:standard
+instance_class:f1
+automatic_scaling:
+  min_idle_instance:automatic
+  max_idle_instance:automatic
+  min_pending_latency:automatic
+  max_pending_latency:automatic
